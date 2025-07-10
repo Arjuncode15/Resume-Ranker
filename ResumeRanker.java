@@ -66,7 +66,7 @@ public class ResumeRanker {
 
         System.out.println("\n Resume Rankings:");
         for (ResumeScore rs : results) {
-            System.out.println(rs.filename + " → Score: " + rs.score);
+            System.out.println(rs.filename + " Score: " + rs.score);
         }
     }
 }
